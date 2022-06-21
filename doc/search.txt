@@ -1,0 +1,23 @@
+- profile [POST] [JSON] [/search/{search_query}]
+
+    request:
+    {
+
+    } example: http://127.0.0.1:8000/search/d
+
+
+    response:
+    {
+        "Profiles": [
+            {
+                "name": "Mehrdad",
+                "username": "Mehrdad565",
+                "picture": ""
+            },
+            {
+                "name": "mehdid",
+                "username": "mehdio",
+                "picture": ""
+            }
+        ]
+    }
