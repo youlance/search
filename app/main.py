@@ -6,10 +6,7 @@ from psycopg2.extras import RealDictCursor
 import time
 from fastapi.middleware.cors import CORSMiddleware
 
-
-
 app = FastAPI()
-
 
 app.add_middleware(
     CORSMiddleware,
